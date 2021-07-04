@@ -1,0 +1,45 @@
+{
+  "songs" :
+  [
+    {
+      "name" : "Clowncounter",
+      "subtitle" : "As Regular As Clown Battles Can Be",
+      "path" : "event:/BGM/Battle/bgm_clown_battle"
+    },
+    {
+      "name" : "The Last Train out of Clowntown",
+      "subtitle" : "Final Showdown Against Clown",
+      "path" : "event:/BGM/Battle/bgm_clown_boss"
+    },
+    {
+      "name" : "Combat!",
+      "subtitle" : "Any Combat Encounter, Really",
+      "path" : "event:/BGM/Battle/bgm_default_battle"
+    },
+    {
+      "name" : "Heart of Steel",
+      "subtitle" : "High-Voltage Rival Battle",
+      "path" : "event:/BGM/Battle/bgm_lucille_battle"
+    },
+    {
+      "name" : "Pinnacle",
+      "subtitle" : "The Beginning Of The End",
+      "path" : "event:/BGM/Battle/Dreamscape/bgm_dreamscape_finalboss_0"
+    },
+    {
+      "name" : "Mindflayer",
+      "subtitle" : "Halfway Mark",
+      "path" : "event:/BGM/Battle/Dreamscape/bgm_dreamscape_midboss"
+    },
+    {
+      "name" : "Gatewatcher",
+      "subtitle" : "Big Bad Boss Battle",
+      "path" : "event:/BGM/Battle/Dreamscape/bgm_dreamscape_boss"
+    },
+    {
+      "name" : "Eerie Dreamscape",
+      "subtitle" : "Pink Can Be A Scary Colour",
+      "path" : "event:/BGM/Overworld/Dreamscape/bgm_dreamscape_eerie"
+    }
+  ]
+}

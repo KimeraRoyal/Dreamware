@@ -1,0 +1,17 @@
+{
+  "layers" :
+  [
+    {
+      "texture" : "Assets/Graphics/Overworld/enemy0_gun",
+      "type" : "spritesheet",
+      "x" : 0,
+      "y" : 0
+    },
+    {
+      "texture" : "Assets/Graphics/Overworld/enemy0_head",
+      "type" : "spritesheet",
+      "x" : 0,
+      "y" : 0
+    }
+  ]
+}

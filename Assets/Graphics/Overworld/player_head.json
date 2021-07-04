@@ -1,0 +1,48 @@
+{
+  "width" : 32,
+  "height" : 32,
+  "animated" : true,
+  "animations" :
+  [
+    {
+      "resetFrames" : false,
+      "length" : 4,
+      "frames" : [4]
+    },
+    {
+      "resetFrames" : false,
+      "length" : 4,
+      "frames" : [2]
+    },
+    {
+      "resetFrames" : false,
+      "length" : 4,
+      "frames" : [0]
+    },
+    {
+      "resetFrames" : false,
+      "length" : 4,
+      "frames" : [6]
+    },
+    {
+      "resetFrames" : true,
+      "length" : 20,
+      "frames" : [5, 4]
+    },
+    {
+      "resetFrames" : true,
+      "length" : 20,
+      "frames" : [3, 2]
+    },
+    {
+      "resetFrames" : true,
+      "length" : 20,
+      "frames" : [1, 0]
+    },
+    {
+      "resetFrames" : true,
+      "length" : 20,
+      "frames" : [7, 6]
+    }
+  ]
+}

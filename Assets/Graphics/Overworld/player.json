@@ -1,0 +1,17 @@
+{
+  "layers" :
+  [
+    {
+      "texture" : "Assets/Graphics/Overworld/player_body",
+      "type" : "spritesheet",
+      "x" : 0,
+      "y" : 20
+    },
+    {
+      "texture" : "Assets/Graphics/Overworld/player_head",
+      "type" : "spritesheet",
+      "x" : 0,
+      "y" : 0
+    }
+  ]
+}
