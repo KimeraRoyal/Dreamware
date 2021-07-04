@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Audio">
+      <UniqueIdentifier>{b89c4057-2904-4e14-8102-eb778c1aeb3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Audio">
+      <UniqueIdentifier>{ba5b2b7f-db22-4f57-8e23-dca7e150e11a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Banks">
+      <UniqueIdentifier>{8d4481a8-6a06-4c96-8f36-0813db12223e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Util">
+      <UniqueIdentifier>{2df29e3d-2cd8-45bf-8946-d33c622c9d27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Util">
+      <UniqueIdentifier>{9f73e18f-5cc5-4053-acd5-e75611d5749b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Screens">
+      <UniqueIdentifier>{4866ec62-463f-4adf-878c-6a9ca7cd1db2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screens">
+      <UniqueIdentifier>{4480d93b-baeb-4c8f-a199-1a65a990a75e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics">
+      <UniqueIdentifier>{c25a738a-26f8-4e49-9ff2-f2dc5bfbf3c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics">
+      <UniqueIdentifier>{95a85393-44ff-463d-acdf-85eeb616bcf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Overworld">
+      <UniqueIdentifier>{308d1671-f431-46fd-bc9b-a4db80840cd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Overworld\Map">
+      <UniqueIdentifier>{c6146f9a-b403-42df-81c8-ce21fb121030}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Overworld">
+      <UniqueIdentifier>{08e9313f-649e-4b02-b1eb-04a3dbfef498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Overworld\Map">
+      <UniqueIdentifier>{b907fb1d-fbf3-4011-96a4-f66f154aabbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Overworld\Objects">
+      <UniqueIdentifier>{83c31334-2d45-4974-bbb0-4a63272e13fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Overworld\Objects">
+      <UniqueIdentifier>{1811912d-7c96-4f61-8ccd-6de52d215b6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Overworld\Objects\Entity">
+      <UniqueIdentifier>{0d4beb51-2ebc-49ea-9db2-6db5d64ef207}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Overworld\Objects\Entity">
+      <UniqueIdentifier>{80edeec8-fa94-4f8f-a835-68b03cf0744d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Menu">
+      <UniqueIdentifier>{f8f63d43-f08e-41fd-9cc2-5dd4f75cffba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Menu">
+      <UniqueIdentifier>{842bd022-b094-44b2-8821-f15d1427b38a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Overworld\Objects\Entity\Living">
+      <UniqueIdentifier>{27dd97ff-e4f6-4c33-96e7-0c9b6a7e9dd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Overworld\Objects\Entity\Living">
+      <UniqueIdentifier>{f43dc372-ab44-4a2b-9a24-62e726abd259}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioManager.cpp">
+      <Filter>Source Files\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="FileManager.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManager.cpp">
+      <Filter>Source Files\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenMenu.cpp">
+      <Filter>Source Files\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicManager.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Spritesheet.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteAnimation.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Tilemap.cpp">
+      <Filter>Source Files\Overworld\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>Source Files\Overworld\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ISprite.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldObject.cpp">
+      <Filter>Source Files\Overworld\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="LayeredGraphicObject.cpp">
+      <Filter>Source Files\Overworld\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleGraphicObject.cpp">
+      <Filter>Source Files\Overworld\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="AssetManager.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicLayer.cpp">
+      <Filter>Source Files\Overworld\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenSoundTest.cpp">
+      <Filter>Source Files\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Source Files\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="SpritesheetFrame.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenGame.cpp">
+      <Filter>Source Files\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="SongInfo.cpp">
+      <Filter>Source Files\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Source Files\Overworld\Objects\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Screen.cpp">
+      <Filter>Source Files\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityHandler.cpp">
+      <Filter>Source Files\Overworld</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files\Overworld\Objects\Entity\Living</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Source Files\Overworld\Objects\Entity\Living</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Overworld\Objects\Entity\Living</Filter>
+    </ClCompile>
+    <ClCompile Include="LivingEntity.cpp">
+      <Filter>Source Files\Overworld\Objects\Entity\Living</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyDrone.cpp">
+      <Filter>Source Files\Overworld\Objects\Entity\Living</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>Source Files\Overworld\Objects\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenGameOver.cpp">
+      <Filter>Source Files\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemySpawner.cpp">
+      <Filter>Source Files\Overworld\Objects\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenVictory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AudioManager.h">
+      <Filter>Header Files\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="FileManager.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManager.h">
+      <Filter>Header Files\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen.h">
+      <Filter>Header Files\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenMenu.h">
+      <Filter>Header Files\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicManager.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Spritesheet.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteAnimation.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Tilemap.h">
+      <Filter>Header Files\Overworld\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>Header Files\Overworld\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ISprite.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldObject.h">
+      <Filter>Header Files\Overworld\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="LayeredGraphicObject.h">
+      <Filter>Header Files\Overworld\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleGraphicObject.h">
+      <Filter>Header Files\Overworld\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetManager.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicLayer.h">
+      <Filter>Header Files\Overworld\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="IGraphic.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenSoundTest.h">
+      <Filter>Header Files\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Header Files\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="SpritesheetFrame.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenGame.h">
+      <Filter>Header Files\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="SongInfo.h">
+      <Filter>Header Files\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Header Files\Overworld\Objects\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityHandler.h">
+      <Filter>Header Files\Overworld</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Header Files\Overworld\Objects\Entity\Living</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Header Files\Overworld\Objects\Entity\Living</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\Overworld\Objects\Entity\Living</Filter>
+    </ClInclude>
+    <ClInclude Include="LivingEntity.h">
+      <Filter>Header Files\Overworld\Objects\Entity\Living</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyDrone.h">
+      <Filter>Header Files\Overworld\Objects\Entity\Living</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>Header Files\Overworld\Objects\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenGameOver.h">
+      <Filter>Header Files\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemySpawner.h">
+      <Filter>Header Files\Overworld\Objects\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenVictory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\Documents\FMOD Studio\Dustworld\Build\Desktop\Master.bank">
+      <Filter>Resource Files\Banks</Filter>
+    </None>
+    <None Include="..\..\..\..\Documents\FMOD Studio\Dustworld\Build\Desktop\Master.strings.bank">
+      <Filter>Resource Files\Banks</Filter>
+    </None>
+  </ItemGroup>
+</Project>

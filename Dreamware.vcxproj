@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{47af63e5-b51c-4dba-bd6b-f25e0f0de9cf}</ProjectGuid>
+    <RootNamespace>Dustworld</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Dustworld</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Program Files\SDL2\SDL2\include;C:\Program Files\SDL2\SDL2-image\include;C:\Program Files\SDL2\SDL2-ttf\include;C:\Program Files (x86)\FMOD SoundSystem\FMOD Studio API Windows\api\core\inc;C:\Program Files (x86)\FMOD SoundSystem\FMOD Studio API Windows\api\studio\inc;C:\Users\stink\source\repos\rapidjson\include;C:\Users\stink\source\repos\tileson\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files\SDL2\SDL2\lib\x86;C:\Program Files\SDL2\SDL2-image\lib\x86;C:\Program Files\SDL2\SDL2-ttf\lib\x86;C:\Program Files (x86)\FMOD SoundSystem\FMOD Studio API Windows\api\core\lib\x86;C:\Program Files (x86)\FMOD SoundSystem\FMOD Studio API Windows\api\studio\lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Program Files\SDL2\SDL2\include;C:\Program Files\SDL2\SDL2-image\include;C:\Program Files\SDL2\SDL2-ttf\include;C:\Program Files (x86)\FMOD SoundSystem\FMOD Studio API Windows\api\core\inc;C:\Program Files (x86)\FMOD SoundSystem\FMOD Studio API Windows\api\studio\inc;C:\Users\stink\source\repos\rapidjson\include;C:\Users\stink\source\repos\tileson\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files\SDL2\SDL2\lib\x86;C:\Program Files\SDL2\SDL2-image\lib\x86;C:\Program Files\SDL2\SDL2-ttf\lib\x86;C:\Program Files (x86)\FMOD SoundSystem\FMOD Studio API Windows\api\core\lib\x86;C:\Program Files (x86)\FMOD SoundSystem\FMOD Studio API Windows\api\studio\lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Program Files\SDL2\SDL2\include;C:\Program Files\SDL2\SDL2-image\include;C:\Program Files\SDL2\SDL2-ttf\include;C:\Program Files (x86)\FMOD SoundSystem\FMOD Studio API Windows\api\core\inc;C:\Program Files (x86)\FMOD SoundSystem\FMOD Studio API Windows\api\studio\inc;C:\Users\stink\source\repos\rapidjson\include;C:\Users\stink\source\repos\tileson\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files\SDL2\SDL2\lib\x64;C:\Program Files\SDL2\SDL2-image\lib\x64;C:\Program Files\SDL2\SDL2-ttf\lib\x64;C:\Program Files (x86)\FMOD SoundSystem\FMOD Studio API Windows\api\core\lib\x64;C:\Program Files (x86)\FMOD SoundSystem\FMOD Studio API Windows\api\studio\lib\x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Program Files\SDL2\SDL2\include;C:\Program Files\SDL2\SDL2-image\include;C:\Program Files\SDL2\SDL2-ttf\include;C:\Program Files (x86)\FMOD SoundSystem\FMOD Studio API Windows\api\core\inc;C:\Program Files (x86)\FMOD SoundSystem\FMOD Studio API Windows\api\studio\inc;C:\Users\stink\source\repos\rapidjson\include;C:\Users\stink\source\repos\tileson\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files\SDL2\SDL2\lib\x64;C:\Program Files\SDL2\SDL2-image\lib\x64;C:\Program Files\SDL2\SDL2-ttf\lib\x64;C:\Program Files (x86)\FMOD SoundSystem\FMOD Studio API Windows\api\core\lib\x64;C:\Program Files (x86)\FMOD SoundSystem\FMOD Studio API Windows\api\studio\lib\x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_ttf.lib;fmodL_vc.lib;fmodstudioL_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /E /I "$(ProjectDir)Assets" "$(OutputPath)Assets"
+copy "C:\Program Files\SDL2\SDL2\lib\x86\SDL2.dll" "$(OutputPath)SDL2.dll"
+copy "C:\Program Files\SDL2\SDL2-image\lib\x86\SDL2_image.dll" "$(OutputPath)SDL2_image.dll"
+copy "C:\Program Files\SDL2\SDL2-image\lib\x86\libpng16-16.dll" "$(OutputPath)libpng16-16.dll"
+copy "C:\Program Files\SDL2\SDL2-image\lib\x86\zlib1.dll" "$(OutputPath)zlib1.dll"
+copy "C:\Program Files\SDL2\SDL2-ttf\lib\x86\SDL2_ttf.dll" "$(OutputPath)SDL2_ttf.dll"
+copy "C:\Program Files\SDL2\SDL2-ttf\lib\x86\libfreetype-6.dll" "$(OutputPath)libfreetype-6.dll"
+copy "C:\Program Files (x86)\FMOD SoundSystem\FMOD Studio API Windows\api\core\lib\x86\fmodL.dll" "$(OutputPath)fmodL.dll"
+copy "C:\Program Files (x86)\FMOD SoundSystem\FMOD Studio API Windows\api\studio\lib\x86\fmodstudioL.dll" "$(OutputPath)fmodstudioL.dll"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_ttf.lib;fmod_vc.lib;fmodstudio_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>Xcopy /E /I "$(ProjectDir)Assets" "$(OutputPath)Assets"
+copy "C:\Program Files\SDL2\SDL2\lib\x86\SDL2.dll" "$(OutputPath)SDL2.dll"
+copy "C:\Program Files\SDL2\SDL2-image\lib\x86\SDL2_image.dll" "$(OutputPath)SDL2_image.dll"
+copy "C:\Program Files\SDL2\SDL2-image\lib\x86\libpng16-16.dll" "$(OutputPath)libpng16-16.dll"
+copy "C:\Program Files\SDL2\SDL2-image\lib\x86\zlib1.dll" "$(OutputPath)zlib1.dll"
+copy "C:\Program Files\SDL2\SDL2-ttf\lib\x86\SDL2_ttf.dll" "$(OutputPath)SDL2_ttf.dll"
+copy "C:\Program Files\SDL2\SDL2-ttf\lib\x86\libfreetype-6.dll" "$(OutputPath)libfreetype-6.dll"
+copy "C:\Program Files (x86)\FMOD SoundSystem\FMOD Studio API Windows\api\core\lib\x86\fmod.dll" "$(OutputPath)fmod.dll"
+copy "C:\Program Files (x86)\FMOD SoundSystem\FMOD Studio API Windows\api\studio\lib\x86\fmodstudio.dll" "$(OutputPath)fmodstudio.dll"
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_ttf.lib;fmodL_vc.lib;fmodstudioL_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>Xcopy /E /I "$(ProjectDir)Assets" "$(OutputPath)Assets"
+copy "C:\Program Files\SDL2\SDL2\lib\x64\SDL2.dll" "$(OutputPath)SDL2.dll"
+copy "C:\Program Files\SDL2\SDL2-image\lib\x64\SDL2_image.dll" "$(OutputPath)SDL2_image.dll"
+copy "C:\Program Files\SDL2\SDL2-image\lib\x64\libpng16-16.dll" "$(OutputPath)libpng16-16.dll"
+copy "C:\Program Files\SDL2\SDL2-image\lib\x64\zlib1.dll" "$(OutputPath)zlib1.dll"
+copy "C:\Program Files\SDL2\SDL2-ttf\lib\x64\SDL2_ttf.dll" "$(OutputPath)SDL2_ttf.dll"
+copy "C:\Program Files\SDL2\SDL2-ttf\lib\x64\libfreetype-6.dll" "$(OutputPath)libfreetype-6.dll"
+copy "C:\Program Files (x86)\FMOD SoundSystem\FMOD Studio API Windows\api\core\lib\x64\fmodL.dll" "$(OutputPath)fmodL.dll"
+copy "C:\Program Files (x86)\FMOD SoundSystem\FMOD Studio API Windows\api\studio\lib\x64\fmodstudioL.dll" "$(OutputPath)fmodstudioL.dll"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_ttf.lib;fmod_vc.lib;fmodstudio_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>Xcopy /E /I "$(ProjectDir)Assets" "$(OutputPath)Assets"
+copy "C:\Program Files\SDL2\SDL2\lib\x64\SDL2.dll" "$(OutputPath)SDL2.dll"
+copy "C:\Program Files\SDL2\SDL2-image\lib\x64\SDL2_image.dll" "$(OutputPath)SDL2_image.dll"
+copy "C:\Program Files\SDL2\SDL2-image\lib\x64\libpng16-16.dll" "$(OutputPath)libpng16-16.dll"
+copy "C:\Program Files\SDL2\SDL2-image\lib\x64\zlib1.dll" "$(OutputPath)zlib1.dll"
+copy "C:\Program Files\SDL2\SDL2-ttf\lib\x64\SDL2_ttf.dll" "$(OutputPath)SDL2_ttf.dll"
+copy "C:\Program Files\SDL2\SDL2-ttf\lib\x64\libfreetype-6.dll" "$(OutputPath)libfreetype-6.dll"
+copy "C:\Program Files (x86)\FMOD SoundSystem\FMOD Studio API Windows\api\core\lib\x64\fmod.dll" "$(OutputPath)fmod.dll"
+copy "C:\Program Files (x86)\FMOD SoundSystem\FMOD Studio API Windows\api\studio\lib\x64\fmodstudio.dll" "$(OutputPath)fmodstudio.dll"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AssetManager.cpp" />
+    <ClCompile Include="AudioManager.cpp" />
+    <ClCompile Include="Bullet.cpp" />
+    <ClCompile Include="Enemy.cpp" />
+    <ClCompile Include="EnemyDrone.cpp" />
+    <ClCompile Include="EnemySpawner.cpp" />
+    <ClCompile Include="EntityHandler.cpp" />
+    <ClCompile Include="Button.cpp" />
+    <ClCompile Include="Entity.cpp" />
+    <ClCompile Include="Effect.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="FileManager.cpp" />
+    <ClCompile Include="GraphicLayer.cpp" />
+    <ClCompile Include="GraphicManager.cpp" />
+    <ClCompile Include="InputManager.cpp" />
+    <ClCompile Include="LivingEntity.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Screen.cpp" />
+    <ClCompile Include="ScreenGameOver.cpp" />
+    <ClCompile Include="ScreenSoundTest.cpp" />
+    <ClCompile Include="ScreenVictory.cpp" />
+    <ClCompile Include="SingleGraphicObject.cpp" />
+    <ClCompile Include="ISprite.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="LayeredGraphicObject.cpp" />
+    <ClCompile Include="ScreenManager.cpp" />
+    <ClCompile Include="ScreenMenu.cpp" />
+    <ClCompile Include="ScreenGame.cpp" />
+    <ClCompile Include="SongInfo.cpp" />
+    <ClCompile Include="Sprite.cpp" />
+    <ClCompile Include="SpriteAnimation.cpp" />
+    <ClCompile Include="Spritesheet.cpp" />
+    <ClCompile Include="SpritesheetFrame.cpp" />
+    <ClCompile Include="Text.cpp" />
+    <ClCompile Include="Tile.cpp" />
+    <ClCompile Include="Tilemap.cpp" />
+    <ClCompile Include="Time.cpp" />
+    <ClCompile Include="WorldObject.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AssetManager.h" />
+    <ClInclude Include="AudioManager.h" />
+    <ClInclude Include="Bullet.h" />
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="EnemyDrone.h" />
+    <ClInclude Include="EnemySpawner.h" />
+    <ClInclude Include="EntityHandler.h" />
+    <ClInclude Include="Button.h" />
+    <ClInclude Include="Entity.h" />
+    <ClInclude Include="Effect.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="FileManager.h" />
+    <ClInclude Include="GraphicLayer.h" />
+    <ClInclude Include="GraphicManager.h" />
+    <ClInclude Include="IGraphic.h" />
+    <ClInclude Include="InputManager.h" />
+    <ClInclude Include="LivingEntity.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="ScreenGameOver.h" />
+    <ClInclude Include="ScreenSoundTest.h" />
+    <ClInclude Include="ScreenVictory.h" />
+    <ClInclude Include="SingleGraphicObject.h" />
+    <ClInclude Include="ISprite.h" />
+    <ClInclude Include="LayeredGraphicObject.h" />
+    <ClInclude Include="Screen.h" />
+    <ClInclude Include="ScreenManager.h" />
+    <ClInclude Include="ScreenMenu.h" />
+    <ClInclude Include="ScreenGame.h" />
+    <ClInclude Include="SongInfo.h" />
+    <ClInclude Include="Sprite.h" />
+    <ClInclude Include="SpriteAnimation.h" />
+    <ClInclude Include="Spritesheet.h" />
+    <ClInclude Include="SpritesheetFrame.h" />
+    <ClInclude Include="Text.h" />
+    <ClInclude Include="Tile.h" />
+    <ClInclude Include="Tilemap.h" />
+    <ClInclude Include="Time.h" />
+    <ClInclude Include="WorldObject.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\Documents\FMOD Studio\Dustworld\Build\Desktop\Master.bank">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\..\..\..\Documents\FMOD Studio\Dustworld\Build\Desktop\Master.strings.bank">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
